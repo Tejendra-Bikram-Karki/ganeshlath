@@ -1,3 +1,20 @@
+
+
+//Navigation Menu
+function myFunction() {
+  var x = document.getElementById("nav-menu");
+  if (x.className === "nav-links") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav-links";
+  }
+}
+
+
+
+//Carousel
+
+
 const gap = 100;
 
 const carousel = document.getElementById("carousel"),
