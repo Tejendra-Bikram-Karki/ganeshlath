@@ -2,12 +2,15 @@
 
 //Navigation Menu
 function myFunction() {
-  var x = document.getElementById("nav-menu");
-  if (x.className === "nav-links") {
-    x.className += " responsive";
-  } else {
-    x.className = "nav-links";
-  }
+
+  var x = document.getElementsByClassName("menu-item").style.display="block";
+
+  // var x = document.getElementById("nav-menu");
+  // if (x.className === "nav-links") {
+  //   x.className += " responsive";
+  // } else {
+  //   x.className = "nav-links";
+  // }
 }
 
 
